@@ -6,7 +6,7 @@ use ConfrariaWeb\Contact\Models\Contact;
 use ConfrariaWeb\Contact\Contracts\ContactContract;
 use ConfrariaWeb\Vendor\Traits\RepositoryTrait;
 
-class ContactEloquent implements ContactContract
+class ContactRepository implements ContactContract
 {
 
     use RepositoryTrait;
