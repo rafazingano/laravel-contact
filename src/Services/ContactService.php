@@ -7,7 +7,6 @@ use ConfrariaWeb\Vendor\Traits\ServiceTrait;
 
 class ContactService
 {
-
     use ServiceTrait;
 
     public function __construct(ContactContract $contact)

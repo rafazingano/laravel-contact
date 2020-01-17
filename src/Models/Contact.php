@@ -19,7 +19,7 @@ class Contact extends Model
 
     public function type()
     {
-        return $this->belongsTo('ConfrariaWeb\Contact\ContactType', 'type_id');
+        return $this->belongsTo('ConfrariaWeb\Contact\Models\ContactType', 'type_id');
     }
 
 }
