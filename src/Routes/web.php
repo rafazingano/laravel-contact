@@ -11,5 +11,7 @@ Route::prefix('admin')
             ->group(function () {
                 Route::resource('types', 'ContactTypeController');
             });
+
+        //Route::resource('contacts', 'ContactController');
     });
 

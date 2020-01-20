@@ -15,7 +15,7 @@ class ContactTypeController extends Controller
     public function index()
     {
         $data['types'] = resolve('ContactTypeService')->all();
-        return view('contacts.types.index', $data);
+        return view(config('cw_contact.views') . 'contacts.types.index', $data);
     }
 
     /**
