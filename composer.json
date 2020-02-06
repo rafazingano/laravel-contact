@@ -1,5 +1,6 @@
 {
     "name": "confrariaweb/laravel-contact",
+    "version": "dev-master",
     "description": "Simple contact pack",
     "keywords": [
         "contact",
